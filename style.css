@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -24,8 +24,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center horizontally within the wrapper */
-}
+    align-items: center; 
 
 .wrapper p {
     position: relative;
@@ -69,11 +68,11 @@ button {
     color: #fff;
     transition: all .2s ease;
     outline: 0;
-    margin-right: 20px; /* Add margin-right to all buttons */
+    margin-right: 20px;
 }
 
 button:not(:last-child) {
-    /* No need for this since we are adding margin-right to all buttons */
+   
 }
 
 button:hover,
